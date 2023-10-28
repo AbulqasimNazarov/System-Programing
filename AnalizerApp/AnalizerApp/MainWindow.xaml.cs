@@ -183,7 +183,7 @@ namespace AnalizerApp
                     });
 
                     thread.Start();
-                    thread.Join();
+                    //thread.Join();
                        
                     this.SymbolsCount = $"symbols count: {read.Length}";
                     this.WordsCount = $"Words count: {CountWords(read)}";
@@ -213,7 +213,7 @@ namespace AnalizerApp
                     });
 
                     thread.Start();
-                    thread.Join();
+                    //thread.Join();
 
                     this.SymbolsCount = $"symbols count: {read.Length}";
                     this.WordsCount = $"Words count: {CountWords(read)}";
@@ -243,7 +243,7 @@ namespace AnalizerApp
                     });
 
                     thread.Start();
-                    thread.Join();
+                    //thread.Join();
 
                     this.SymbolsCount = $"symbols count: {read.Length}";
                     this.WordsCount = $"Words count: {CountWords(read)}";
